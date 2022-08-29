@@ -1,10 +1,10 @@
 ---
 layout: home
-title: 编译原理
+title: 集合论与图论
 nav_exclude: true
 seo:
   type: Course
-  name: 编译原理 
+  name: 集合论与图论
 ---
 
 # {{ site.tagline }}
