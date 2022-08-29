@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Compilers
-tagline: 欢迎选修编译原理！
-description: 本课程将介绍编译技术的基本原理和简易实现。
+title: S&G
+tagline: 欢迎选修集合论与图论！
+description: 本课程将介绍集合论与图论的基本知识。
 author: Dawei Zhu (Forked and revised from Kevin Lin
-baseurl: '/Compiler2022' # the subpath of your site, e.g. /blog
+baseurl: '/SetGraph' # the subpath of your site, e.g. /blog
 url: 'https://pku-tangent.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
@@ -32,7 +32,8 @@ footer_content:
 # Collections for website data
 collections:
   staffers:
-  modules:
+  lectures2021:
+  lectures2022:
   schedules:
   announcements:
   assignments:
@@ -46,7 +47,12 @@ defaults:
       subpath: '/assets/images/'
   - scope:
       path: ''
-      type: modules
+      type: lectures2021
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: lectures2022
     values:
       layout: module
   - scope:
