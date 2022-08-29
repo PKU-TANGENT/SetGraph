@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lectures (2022)
+title: Lectures
 description: Listing of course modules and topics.
 ---
 
-# Lectures (2022)
+# Lectures
 
 {% for module in site.lectures2022 %}
 {{ module }}
