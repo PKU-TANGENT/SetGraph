@@ -23,13 +23,13 @@ schedule:
       - name: Lecture
         start: 10:10 AM
         end: 12:00 PM
-        location: 文史楼 110
+        location: 二教 307
   - name: Wednesday
   - name: Thursday
-  - name: Friday
     events:
       - name: Lecture
-        start: 10:10 AM
-        end: 12:00 PM
-        location: 文史楼 110（单周）
+        start: 1:00 PM
+        end: 2:50 PM
+        location: 二教 307（双周）
+  - name: Friday
 ---
