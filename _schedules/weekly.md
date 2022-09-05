@@ -28,8 +28,8 @@ schedule:
   - name: Thursday
     events:
       - name: Lecture
-        start: 1:00 PM
-        end: 2:50 PM
+        start: '1:00 PM'
+        end: '2:50 PM'
         location: 二教 307（双周）
   - name: Friday
 ---
