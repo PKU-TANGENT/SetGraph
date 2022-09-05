@@ -34,7 +34,6 @@ collections:
   staffers:
   lectures2021:
   lectures2022:
-  schedules:
   announcements:
   assignments:
 # Default layouts for each collection type
@@ -55,11 +54,6 @@ defaults:
       type: lectures2022
     values:
       layout: module
-  - scope:
-      path: ''
-      type: schedules
-    values:
-      layout: schedule
   - scope:
       path: ''
       type: announcements
