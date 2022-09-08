@@ -36,6 +36,7 @@ collections:
   lectures2022:
   announcements:
   assignments:
+  modules:
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -47,6 +48,11 @@ defaults:
   - scope:
       path: ''
       type: lectures2021
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: modules
     values:
       layout: module
   - scope:
